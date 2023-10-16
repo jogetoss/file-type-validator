@@ -109,7 +109,7 @@ public class FileTypeValidator extends FormValidator {
 
     @Override
     public String getDescription() {
-        return "To validate the actual file type using Apache Tika.";
+        return "To validate uploaded files based on the configured list of allowed file types and their associated MIME types.";
     }
 
     @Override

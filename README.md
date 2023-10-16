@@ -1,6 +1,8 @@
 # Description
 
-The File Type Validator plugin validates the actual file type using Apache Tika.
+The File Type Validator plugin validates uploaded files based on the configured list of allowed file types and their associated MIME types.
+
+To setup and configure this plugin, please see the [documentation](https://dev.joget.org/community/display/marketplace/File+Type+Validator+Plugin).
 
 # Getting Help
 
