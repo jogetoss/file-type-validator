@@ -1,0 +1,34 @@
+[{
+        "title": "@@org.joget.marketplace.filetype.validator.config@@",
+        "properties": [
+            {
+                "name" : "mandatory",
+                "label" : "@@org.joget.marketplace.filetype.validator.mandatory@@",
+                "type" : "checkbox",
+                "value" : "true",
+                "options" : [{
+                    "value" : "true",
+                    "label" : ""
+                }]
+            },
+            {
+                "name":"fields",
+                "label":"@@org.joget.marketplace.filetype.validator.allowedtypes@@",
+                "type":"grid",
+                "columns":[
+                    {"key": "name", "label": "@@org.joget.marketplace.filetype.validator.name@@" },
+                    {"key": "type", "label": "@@org.joget.marketplace.filetype.validator.type@@" }
+                ]
+            },
+            {
+                "label": "@@org.joget.marketplace.filetype.validator.allMimeType@@",
+                "type": "header",
+                "description" : "@@org.joget.marketplace.filetype.validator.allMimeTypeLink@@"
+            },
+            {
+                "name" : "message",
+                "label" : "@@org.joget.marketplace.filetype.validator.message@@",
+                "type" : "textfield"
+            }
+        ]
+    }]
