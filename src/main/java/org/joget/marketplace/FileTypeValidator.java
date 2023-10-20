@@ -14,7 +14,6 @@ import org.joget.apps.form.model.FormValidator;
 import org.joget.apps.form.service.FormUtil;
 import org.joget.commons.util.FileManager;
 import org.joget.commons.util.LogUtil;
-import org.joget.commons.util.ResourceBundleUtil;
 
 public class FileTypeValidator extends FormValidator {
     

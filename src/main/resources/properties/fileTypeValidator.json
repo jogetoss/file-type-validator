@@ -14,16 +14,12 @@
             {
                 "name":"fields",
                 "label":"@@org.joget.marketplace.filetype.validator.allowedtypes@@",
+                "description" : "@@org.joget.marketplace.filetype.validator.allMimeTypeLink@@",
                 "type":"grid",
                 "columns":[
                     {"key": "name", "label": "@@org.joget.marketplace.filetype.validator.name@@" },
                     {"key": "type", "label": "@@org.joget.marketplace.filetype.validator.type@@" }
                 ]
-            },
-            {
-                "label": "@@org.joget.marketplace.filetype.validator.allMimeType@@",
-                "type": "header",
-                "description" : "@@org.joget.marketplace.filetype.validator.allMimeTypeLink@@"
             },
             {
                 "name" : "message",
